@@ -1,0 +1,53 @@
+{
+  "name": "mcproxy",
+  "version": "0.1.0",
+  "description": "MCP Proxy with tool filtering for Claude Code",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcproxy": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-attention/mcproxy.git"
+  },
+  "homepage": "https://github.com/team-attention/mcproxy#readme",
+  "bugs": {
+    "url": "https://github.com/team-attention/mcproxy/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint src/",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "commander": "^12.0.0",
+    "proper-lockfile": "^4.1.2",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/proper-lockfile": "^4.1.4",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "proxy",
+    "claude",
+    "claude-code",
+    "tool-filtering"
+  ],
+  "license": "MIT"
+}

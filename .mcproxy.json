@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "servers": {
+    "Context7@2.0.2": {
+      "tools": {
+        "resolve-library-id": true,
+        "query-docs": true
+      }
+    },
+    "tavily-mcp@2.14.2": {
+      "tools": {
+        "tavily_search": true,
+        "tavily_extract": true,
+        "tavily_crawl": true,
+        "tavily_map": true
+      }
+    },
+    "Linear MCP@1.0.0": {
+      "tools": {
+        "list_comments": false,
+        "create_comment": false,
+        "list_cycles": false,
+        "get_document": false,
+        "list_documents": false,
+        "create_document": false,
+        "update_document": false,
+        "get_issue": false,
+        "list_issues": false,
+        "create_issue": false,
+        "update_issue": false,
+        "list_issue_statuses": false,
+        "get_issue_status": false,
+        "list_issue_labels": false,
+        "create_issue_label": false,
+        "list_projects": false,
+        "get_project": false,
+        "create_project": false,
+        "update_project": false,
+        "list_project_labels": false,
+        "list_teams": false,
+        "get_team": false,
+        "list_users": false,
+        "get_user": true,
+        "search_documentation": true
+      }
+    }
+  }
+}

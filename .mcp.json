@@ -1,0 +1,39 @@
+{
+    "mcpServers": {
+        "linear": {
+            "command": "node",
+            "args": [
+                "./dist/index.js",
+                "--",
+                "npx", "-y", "mcp-remote",
+                "https://mcp.linear.app/mcp",
+                "--header",
+                "Authorization: Bearer ${LINEAR_API_KEY}"
+            ],
+            "env": {
+                "LINEAR_API_KEY": "${LINEAR_API_KEY}"
+            }
+        },
+        "tavily": {
+            "command": "node",
+            "args": [
+                "./dist/index.js",
+                "--",
+                "npx", "-y", "mcp-remote",
+                "https://mcp.tavily.com/mcp/?${TAVILY_API_KEY}"
+            ],
+            "env": {
+                "TAVILY_API_KEY": "${TAVILY_API_KEY}"
+            }
+        },
+        "context7": {
+            "command": "node",
+            "args": [
+                "./dist/index.js",
+                "--",
+                "npx", "-y", "@upstash/context7-mcp"
+            ],
+            "env": {}
+        }
+    }
+}
