@@ -15,14 +15,6 @@
 
 ---
 
-## 🎥 Demo
-
-<div align="center">
-  <video src="./assets/mcproxy@0.1.0.mp4" controls width="100%"></video>
-  <br>
-  <i>See mcproxy in action</i>
-</div>
-
 ## 🚀 Installation
 
 run directly with `npx` (recommended):
