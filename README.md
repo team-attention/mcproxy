@@ -15,6 +15,10 @@
 
 ---
 
+## 🎥 Demo
+
+https://github.com/team-attention/mcproxy/releases/download/v0.1.0/mcproxy%400.1.0.mp4
+
 ## 🚀 Installation
 
 run directly with `npx` (recommended):
