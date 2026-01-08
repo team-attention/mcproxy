@@ -1,5 +1,5 @@
 {
-  "name": "mcproxy",
+  "name": "@team-attention/mcproxy",
   "version": "0.1.0",
   "description": "MCP Proxy with tool filtering for Claude Code",
   "type": "module",
